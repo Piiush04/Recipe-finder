@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe generator</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">SavourEase</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#recipe" class="nav-link">Recipes</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                </ul>
+                <!-- <div class="search">
+                    <input type="text" class="input" placeholder="Search...">
+                    <button class="search-btn">
+                        <i class="uil uil-search"></i>
+                    </button>
+                </div> -->
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <h1>Get your <span class="text">Recipes</span></h1>
+                    </div>
+                    <div class="generate">
+                        <input type="text" placeholder="Enter ingredients(comma seperated)" class="ingredients">
+                        <button class="btn generate-btn">generate</button>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="/assets/images/OIP.jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (1).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (2).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (3).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (4).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (5).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (6).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (7).jpeg" alt="dishes">
+                    </div><div class="image">
+                        <img src="/assets/images/OIP (8).jpeg" alt="dishes">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section" id="recipe">
+                <div class="top-header">
+                    <h1>Recipes</h1>
+                </div>
+                <div class="result">
+                    <div class="recipeResult">
+                   
+                    </div>
+                    <div class="recipeResult">
+                       
+                    </div>
+                    <div class="recipeResult">
+                       
+                    </div>
+                </div>
+                
+            </section>
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About</h1>
+                </div>
+                <div class="info">
+                    <p>Welcome to SavourEase, your go-to platform for discovering delicious recipes based on the ingredients you already have! Whether you're looking to whip up a quick meal or experiment with new flavors, our smart search helps you find recipes effortlessly.
+
+                        Our goal is to make cooking easy, fun, and waste-free by helping you make the most of the ingredients available in your kitchen. Simply enter what you have, and we'll suggest recipes tailored to your needs.
+                        
+                        Start exploring and enjoy cooking with SavourEase!</p>
+                </div>
+            </section>
+            <section class="footer">
+                <div>
+                    <p>Copyright &copy; SavourEase.com</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="Js/main.js">
+    </script>
+</body>
+</html>
